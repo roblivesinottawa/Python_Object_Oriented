@@ -1,6 +1,3 @@
-# Python Object Oriented Programming by Joe Marini course example
-# Using the postinit function in data classes
-
 from dataclasses import dataclass
 
 

@@ -1,6 +1,3 @@
-# Python Object Oriented Programming by Joe Marini course example
-# Using the __str__ and __repr__ magic methods
-
 
 class Book:
     def __init__(self, title, author, price):
@@ -9,13 +6,9 @@ class Book:
         self.author = author
         self.price = price
 
-    # The __str__ function is used to return a user-friendly string
-    # representation of the object
     def __str__(self):
         return f"{self.title} by {self.author}, costs {self.price}"
 
-    # The __str__ function is used to return a developer-friendly string
-    # representation of the object
     def __repr__(self):
         return f"title={self.title},author={self.author},price={self.price}"
 
@@ -28,5 +21,5 @@ print(b1)
 print(b2)
 
 # use str() and repr()
-print(str(b1))
-print(repr(b2))
+# print(str(b1))
+# print(repr(b2))

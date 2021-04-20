@@ -1,6 +1,3 @@
-# Python Object Oriented Programming by Joe Marini course example
-# Creating immutable data classes
-
 from dataclasses import dataclass
 
 
